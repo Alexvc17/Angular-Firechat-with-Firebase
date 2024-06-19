@@ -25,11 +25,7 @@ import { LoginComponent } from './components/login/login.component';
     AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebase),
     FormsModule
-    /*forma antigua de importar agular firemodule
-    import { initializeApp, provideFirebaseApp } from '@angular/fire/app';
-import { getFirestore, provideFirestore } from '@angular/fire/firestore';
-    provideFirebaseApp(() => initializeApp({"projectId":"firechat-cec2a","appId":"1:383123253585:web:1648792813d118106fcb70","storageBucket":"firechat-cec2a.appspot.com","apiKey":"AIzaSyCWzQKJZ0mJ2_g3IhBFZZ8wr9Wd3a2-Yo4","authDomain":"firechat-cec2a.firebaseapp.com","messagingSenderId":"383123253585"})),
-    provideFirestore(() => getFirestore())*/
+
   ],
   providers: [AngularFirestore, ChatService],
   bootstrap: [AppComponent]
