@@ -1,11 +1,11 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: "AIzaSyCWzQKJZ0mJ2_g3IhBFZZ8wr9Wd3a2-Yo4",
-    authDomain: "firechat-cec2a.firebaseapp.com",
-    projectId: "firechat-cec2a",
-    storageBucket: "firechat-cec2a.appspot.com",
-    messagingSenderId: "383123253585",
-    appId: "1:383123253585:web:b542377eff9c692a6fcb70"
+    apiKey: process.env.FIREBASE_API_KEY,
+    authDomain: process.env.FIREBASE_AUTH_DOMAIN,
+    projectId: process.env.FIREBASE_PROJECT_ID,
+    storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.FIREBASE_APP_ID
   }
 };
