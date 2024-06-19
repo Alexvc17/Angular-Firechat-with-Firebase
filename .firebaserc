@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "firechat-cec2a": {
+      "hosting": {
+        "firechat": [
+          "firechat-cec2a"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "firechat-cec2a"
+  }
+}
